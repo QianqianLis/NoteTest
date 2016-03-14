@@ -244,7 +244,7 @@ public class NotePage {
             //画图
             if (showLeftLines.get(line).contains("img")) {
 
-                Drawable d = ContextCompat.getDrawable(context,R.drawable.bg);
+                Drawable d = ContextCompat.getDrawable(context,R.drawable.background);
                 BitmapDrawable bd = (BitmapDrawable) d;
                 Bitmap bitmap = bd.getBitmap();
 
@@ -279,7 +279,7 @@ public class NotePage {
             //画图
             if (showRightLines.get(line).contains("img")) {
 
-                Drawable d = ContextCompat.getDrawable(context,R.drawable.bg);
+                Drawable d = ContextCompat.getDrawable(context,R.drawable.background);
                 BitmapDrawable bd = (BitmapDrawable) d;
                 Bitmap bitmap = bd.getBitmap();
 
